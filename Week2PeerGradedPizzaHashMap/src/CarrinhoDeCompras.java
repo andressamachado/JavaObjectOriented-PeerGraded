@@ -26,7 +26,7 @@ public class CarrinhoDeCompras {
 
     public void adicionarCarrinho(Pizza pizza) {
         if (pizza.quantidade == 0) {
-            System.out.println("Pizza vazia.  Nao adicionada");
+            System.out.println("* Seu pedido não possui ingredientes. Pizza não adicionada");
             return;
         }
         listaPizzas.put(contador++, pizza);
