@@ -31,7 +31,7 @@ class CarrinhoDeComprasTeste {
         carrinho.adicionarCarrinho(pizza1);
         carrinho.getValorTotal();
         assertEquals(15, carrinho.valorTotal());
-        System.out.println("Teste #1 - Passou");
+        System.out.println("Teste #1 - Passou | Qtd de Pizzas adicionadas: " + carrinho.getContador() + " | Valor Total do Carrinho: " + carrinho.valorTotal());
     }
 
     @Test
@@ -42,7 +42,7 @@ class CarrinhoDeComprasTeste {
 
         carrinho2.adicionarCarrinho(pizza2);
         assertEquals(0, carrinho2.valorTotal());
-        System.out.println("Teste #2 - Passou");
+        System.out.println("Teste #2 - Passou | Qtd de Pizzas adicionadas: " + carrinho2.getContador() + " | Valor Total do Carrinho: " + carrinho2.valorTotal());
     }
 
 
@@ -65,7 +65,7 @@ class CarrinhoDeComprasTeste {
         carrinho3.adicionarCarrinho(pizza4);
 
         assertEquals(35, carrinho3.valorTotal());
-        System.out.println("Teste #3 - Passou");
+        System.out.println("Teste #3 - Passou | Qtd de Pizzas adicionadas: " + carrinho3.getContador() + " | Valor Total do Carrinho: " + carrinho3.valorTotal());
     }
 }
 

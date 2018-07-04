@@ -27,7 +27,7 @@ class PizzaTeste {
 
         assertEquals(1, pizza0.quantidade);
         assertEquals(15, pizza0.getPreco());
-        System.out.println("Teste #1 - Passou");
+        System.out.println("Teste #1 - Passou | Qtd ingredientes: " + pizza0.quantidade + " | Valor: " + pizza0.getPreco());
     }
 
     @org.junit.jupiter.api.Test
@@ -39,7 +39,7 @@ class PizzaTeste {
 
         assertEquals(3, pizza1.quantidade);
         assertEquals(20, pizza1.getPreco());
-        System.out.println("Teste #2 - Passou");
+        System.out.println("Teste #2 - Passou | Qtd ingredientes: " + pizza1.quantidade + " | Valor: " + pizza1.getPreco());
     }
 
     @org.junit.jupiter.api.Test
@@ -52,7 +52,7 @@ class PizzaTeste {
 
         assertEquals(4, pizza2.quantidade);
         assertEquals(20, pizza2.getPreco());
-        System.out.println("Teste #3 - Passou");
+        System.out.println("Teste #3 - Passou | Qtd ingredientes: " + pizza2.quantidade + " | Valor: " + pizza2.getPreco());
     }
 
     @org.junit.jupiter.api.Test
@@ -66,7 +66,7 @@ class PizzaTeste {
 
         assertEquals(5, pizza3.quantidade);
         assertEquals(20, pizza3.getPreco());
-        System.out.println("Teste #4 - Passou");
+        System.out.println("Teste #4 - Passou | Qtd ingredientes: " + pizza3.quantidade + " | Valor: " + pizza3.getPreco());
     }
 
     @org.junit.jupiter.api.Test
@@ -81,7 +81,7 @@ class PizzaTeste {
 
         assertEquals(6, pizza4.quantidade);
         assertEquals(23, pizza4.getPreco());
-        System.out.println("Teste #5 - Passou");
+        System.out.println("Teste #5 - Passou | Qtd ingredientes: " + pizza4.quantidade + " | Valor: " + pizza4.getPreco());
     }
 
     @org.junit.jupiter.api.Test
@@ -94,7 +94,7 @@ class PizzaTeste {
         assertEquals(0, pizza5.quantidade);
         assertEquals(15, pizza5.getPreco());
 
-        System.out.println("Teste #6 - Passou");
+        System.out.println("Teste #6 - Passou | Qtd ingredientes: " + pizza5.quantidade + " | Valor: " + pizza5.getPreco() + "\n* Pizza sem ingredientes não são adicionadas ao carrinho");
     }
 
 
