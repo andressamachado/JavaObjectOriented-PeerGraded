@@ -9,7 +9,6 @@ public class Pizza {
     private String nomePizza;
     private String tamanhoPizza;
     protected int quantidade;
-
     private static HashMap<String, Integer> ingredientes = new HashMap();
 
 
@@ -23,6 +22,7 @@ public class Pizza {
         Pizza.contabilizaIngrediente(ingrediente);
         this.quantidade++;
     }
+
 
     public static void contabilizaIngrediente(String ingrediente) {
 
@@ -41,4 +41,6 @@ public class Pizza {
     public static HashMap<String, Integer> getIngredientes() {
         return ingredientes;
     }
+
+
 }

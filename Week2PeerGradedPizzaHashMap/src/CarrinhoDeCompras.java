@@ -32,6 +32,11 @@ public class CarrinhoDeCompras {
         listaPizzas.put(contador++, pizza);
     }
 
+    public int getContador() {
+        return contador;
+    }
+
+
     public double valorTotal() {
         double sum = 0;
         for (int i = 0; i < listaPizzas.size(); i++) {
