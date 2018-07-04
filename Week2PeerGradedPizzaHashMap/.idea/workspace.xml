@@ -15,39 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarrinhoDeComprasTeste.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarrinhoDeComprasTeste.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CarrinhoDeComprasTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="612">
               <caret line="44" column="147" selection-start-line="44" selection-start-column="147" selection-end-line="44" selection-end-column="147" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarrinhoDeCompras.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CarrinhoDeCompras.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PizzaTeste.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PizzaTeste.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PizzaTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+            <state relative-caret-position="1428">
+              <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,9 +98,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,8 +277,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CarrinhoDeComprasTeste" />
-        <item itemvalue="JUnit.CarrinhoDeComprasTeste.testeValorTotalUmaPizza" />
         <item itemvalue="JUnit.PizzaTeste" />
+        <item itemvalue="JUnit.CarrinhoDeComprasTeste.testeValorTotalUmaPizza" />
         <item itemvalue="JUnit.PizzaTeste.testePizzaSemIngredientes" />
         <item itemvalue="JUnit.PizzaTeste.testePizza1Ingrediente" />
       </list>
@@ -317,25 +298,11 @@
       <workItem from="1530319631062" duration="1220000" />
       <workItem from="1530726430165" duration="6557000" />
       <workItem from="1530733346542" duration="954000" />
+      <workItem from="1530734610738" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PizzaTeste - 2018.07.04 at 15h 49m 48s.xml">
-      <configuration name="PizzaTeste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarrinhoDeComprasTeste - 2018.07.04 at 15h 53m 04s.xml">
-      <configuration name="CarrinhoDeComprasTeste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarrinhoDeComprasTeste_testeValorTotalUmaPizza - 2018.07.04 at 15h 54m 10s.xml">
-      <configuration name="CarrinhoDeComprasTeste.testeValorTotalUmaPizza" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarrinhoDeComprasTeste_testeValorTotalUmaPizza - 2018.07.04 at 15h 55m 36s.xml">
-      <configuration name="CarrinhoDeComprasTeste.testeValorTotalUmaPizza" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarrinhoDeComprasTeste_testeValorTotalUmaPizza - 2018.07.04 at 15h 55m 58s.xml">
-      <configuration name="CarrinhoDeComprasTeste.testeValorTotalUmaPizza" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CarrinhoDeComprasTeste_testeValorTotalUmaPizza - 2018.07.04 at 15h 56m 13s.xml">
       <configuration name="CarrinhoDeComprasTeste.testeValorTotalUmaPizza" configurationId="JUnit" />
     </history-entry>
@@ -351,9 +318,24 @@
     <history-entry file="CarrinhoDeComprasTeste - 2018.07.04 at 15h 58m 02s.xml">
       <configuration name="CarrinhoDeComprasTeste" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PizzaTeste - 2018.07.04 at 16h 03m 53s.xml">
+      <configuration name="PizzaTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarrinhoDeComprasTeste - 2018.07.04 at 16h 04m 16s.xml">
+      <configuration name="CarrinhoDeComprasTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarrinhoDeComprasTeste - 2018.07.04 at 16h 05m 44s.xml">
+      <configuration name="CarrinhoDeComprasTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PizzaTeste - 2018.07.04 at 16h 06m 43s.xml">
+      <configuration name="PizzaTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarrinhoDeComprasTeste - 2018.07.04 at 16h 07m 23s.xml">
+      <configuration name="CarrinhoDeComprasTeste" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24967000" />
+    <option name="totallyTimeSpent" value="25306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -368,11 +350,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5016575" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47845304" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06982943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07249467" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,22 +371,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48214287" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24617068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48214287" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -412,8 +394,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -450,6 +432,40 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CarrinhoDeComprasTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="44" column="147" selection-start-line="44" selection-start-column="147" selection-end-line="44" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarrinhoDeCompras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PizzaTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarrinhoDeComprasTeste.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -537,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
@@ -552,20 +568,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CarrinhoDeComprasTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="44" column="147" selection-start-line="44" selection-start-column="147" selection-end-line="44" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PizzaTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+        <state relative-caret-position="1428">
+          <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarrinhoDeComprasTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="44" column="147" selection-start-line="44" selection-start-column="147" selection-end-line="44" selection-end-column="147" />
         </state>
       </provider>
     </entry>
