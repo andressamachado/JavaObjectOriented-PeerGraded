@@ -2,9 +2,9 @@ public class Produto {
 
     protected String nome;
     protected int codigo;
-    protected int preco;
+    protected double preco;
 
-    public Produto(String nome, int codigo, int preco) {
+    public Produto(String nome, int codigo, double preco) {
         this.nome = nome;
         this.codigo = codigo;
         this.preco = preco;
@@ -15,7 +15,7 @@ public class Produto {
     }
 
     public boolean equals(Produto produto){
-return codigo == produto.hashCode();
+        return codigo == produto.hashCode();
 
     }
 
