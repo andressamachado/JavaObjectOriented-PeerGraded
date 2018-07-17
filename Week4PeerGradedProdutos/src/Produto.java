@@ -10,11 +10,13 @@ public class Produto {
         this.preco = preco;
     }
 
+    @Override
     public int hashCode() {
         return codigo;
     }
 
-    public boolean equals(Produto produto){
+    @Override
+    public boolean equals(Object produto){
         return codigo == produto.hashCode();
 
     }
