@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CarrinhoTeste {
 
-    CarrinhoDeCompras carrinho;
+    private CarrinhoDeCompras carrinho;
 
     @BeforeEach
     public void before() {

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 //Assignment #4 para curso de Orientação a Objetos com Java. by: Instituto Tecnológico de Aeronáutica
 //Herança - Diferente tipos de produtos
 //Autor(a): Andressa Machado
-//Last update: 15.julho.2018
+//Last update: 17.julho.2018
 
 public class ProdutoComTamanhoTeste {
     ProdutoComTamanho produtoComTamanho;

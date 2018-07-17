@@ -10,6 +10,11 @@ public class Produto {
         this.preco = preco;
     }
 
+    public double getPreco() {
+        return preco;
+    }
+
+
     @Override
     public int hashCode() {
         return codigo;
