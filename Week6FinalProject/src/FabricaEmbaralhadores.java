@@ -1,23 +1,25 @@
-import java.util.ArrayList;1
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
+
 
 public class FabricaEmbaralhadores {
 
-    protected Embaralhador getEmbaralhador;
+    List<Embaralhador> embaralhadores;
 
-    ArrayList<Embaralhador> embaralhadores = new ArrayList<Embaralhador>(2);
+    public FabricaEmbaralhadores() {
+        embaralhadores = new ArrayList();
+        embaralhadores.add(new EmbaralhadorRandom());
+        embaralhadores.add(new EmbaralhadorParImpar());
+    }
 
-    embaralhadores.add(new
-    EmbaralhadorRandom());
-embaralhadores.add(new
+    public Embaralhador getEmbaralhador() {
 
-    EmbaralhadorParImpar());
+        Random getEmbaralhador = new Random();
+        int posicao = getEmbaralhador.nextInt(2);
 
-//    public Random EmbaralhadorAleatorio() {
-//
-//        Random getEmbaralhador = new Random();
-//        getEmbaralhador.nextInt();
-//
-//        return getEmbaralhador;
-//    }
+        return embaralhadores.get(posicao);
+
+    }
+
 }
