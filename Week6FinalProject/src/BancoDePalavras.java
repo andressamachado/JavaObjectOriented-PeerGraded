@@ -7,19 +7,18 @@ import java.util.Random;
 
 public class BancoDePalavras {
 
-    protected int palavraGerada;
-    List<String> lista = new ArrayList<String>();
-    BufferedReader br = null;
+    List<String> listaPalavras = new ArrayList<>();
+    private String ultimaExibida;
 
     public BancoDePalavras() {
-    }
 
-    {
+        this.ultimaExibida = "";
+        BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader("D:\\Academic\\Orientação a objetos com Java - Coursera\\PeerGraded  -  Assignments\\Week6FinalProject\\src\\BancoDePalavras\\palavras.txt"));
             String palavra;
             while ((palavra = br.readLine()) != null) {
-                lista.add(palavra);
+                listaPalavras.add(palavra);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -32,17 +31,13 @@ public class BancoDePalavras {
                 ex.printStackTrace();
             }
         }
-
-        Random palavraGerada = new Random();
-        palavraGerada.nextInt();
     }
 
-    public void mostrarPalavra() {
-        System.out.println(lista.get(palavraGerada));
-    }
+    public String getPalavraGerada() {
 
-    public int getPalavraGerada() {
-        return palavraGerada;
+        Random geradorAleatorio = new Random();
+        this.ultimaExibida = listaPalavras.get(geradorAleatorio.nextInt());
+        return this.ultimaExibida;
     }
 }
 
