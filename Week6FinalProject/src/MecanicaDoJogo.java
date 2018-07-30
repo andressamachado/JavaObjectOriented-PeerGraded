@@ -1,5 +1,7 @@
 public interface MecanicaDoJogo {
 
+    public String getNome();
+
     public String getPalavraEmbaralhada();
 
     public boolean acertou(String respostaDoUsuario);
@@ -8,6 +10,7 @@ public interface MecanicaDoJogo {
 
     public boolean terminouJogo();
 
-    public int pontuacaoFinal();
+    public int getPontuacao();
 
 }
+

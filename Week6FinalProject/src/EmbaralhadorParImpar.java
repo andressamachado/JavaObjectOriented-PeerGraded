@@ -9,7 +9,7 @@ public class EmbaralhadorParImpar implements Embaralhador {
             if (i % 2 != 0) {
                 output.append(input.charAt(i));
                 output.append(input.charAt(i - 1));
-            } else if (i == input.length()) {
+            } else if (i == input.length()-1) {
                 output.append(input.charAt(i));
             }
         }

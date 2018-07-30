@@ -36,7 +36,7 @@ public class BancoDePalavras {
     public String getPalavraGerada() {
 
         Random geradorAleatorio = new Random();
-        this.ultimaExibida = listaPalavras.get(geradorAleatorio.nextInt());
+        this.ultimaExibida = listaPalavras.get(geradorAleatorio.nextInt(30));
         return this.ultimaExibida;
     }
 }

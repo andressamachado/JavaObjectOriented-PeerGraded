@@ -19,6 +19,6 @@ public class EmbaralhadorRandom implements Embaralhador {
             int randPicker = (int) (Math.random() * characters.size());
             output.append(characters.remove(randPicker));
         }
-        return characters.toString();
+        return output.toString();
     }
 }

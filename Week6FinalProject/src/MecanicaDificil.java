@@ -1,4 +1,4 @@
-public class MecanicaFacil implements MecanicaDoJogo {
+public class MecanicaDificil implements MecanicaDoJogo {
 
     private int tentativas;
     private int erros;
@@ -6,15 +6,15 @@ public class MecanicaFacil implements MecanicaDoJogo {
     private int pontuacao;
     private FabricaEmbaralhadores embaralhadores;
     private BancoDePalavras banco;
-    private String nome = "[1] Fácil";
+    private String nome = "[2] Difícil";
 
     public String getNome() {
         return nome;
     }
 
-    public MecanicaFacil() {
+    public MecanicaDificil() {
 
-        this.tentativas = 3;
+        this.tentativas = 1;
         this.erros = 0;
         this.pontuacao = 0;
         this.embaralhadores = new FabricaEmbaralhadores();
@@ -33,14 +33,15 @@ public class MecanicaFacil implements MecanicaDoJogo {
 
         if (palavraDaVez.equals(respostaDoUsuario)) {
             //se o usuario acertou, resetar as tentativas.
-            this.tentativas = 3;
-            this.pontuacao++;
+            this.tentativas = 1;
+            this.pontuacao += 5;
             return true;
         } else {
             this.tentativas--;
             //se gastou as tentativas, adiciona erro, passa pra proxima palavra
             if (this.tentativas == 0) {
                 this.erros++;
+                this.tentativas = 1;
             }
             return false;
         }
@@ -53,12 +54,7 @@ public class MecanicaFacil implements MecanicaDoJogo {
     }
 
     public boolean terminouJogo() {
-        if( this.erros >= 3)
-            return true;
-        else {
-            this.tentativas = 3;
-        }
-        return false;
+        return this.erros >= 1;
     }
 
     public int getPontuacao() {
@@ -66,4 +62,3 @@ public class MecanicaFacil implements MecanicaDoJogo {
     }
 
 }
-
