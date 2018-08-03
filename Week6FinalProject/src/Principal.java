@@ -10,51 +10,58 @@ public class Principal {
 
     public static void main(String[] args) {
 
+        int nivelJogo = 0;
         Scanner resposta = new Scanner(System.in);
         Scanner input = new Scanner(System.in);
 
-        System.out.println("========= Jogo das Palavras Embaralhadas =========");
+        System.out.println("============= Jogo das Palavras Embaralhadas =============");
         System.out.println("descubra o máximo de palavras que você conseguir!");
-        System.out.println("==================================================");
+        System.out.println("==========================================================");
         System.out.println();
 
         System.out.println("Níveis de dificuldade disponíveis: ");
-        System.out.println("*\t[1] Fácil: 3 tentativas por palavra.");
-        System.out.println("*\t[2] Difício: errou, perdeu.");
-
+        System.out.println("*\t[1] Fácil: 3 tentativas por palavra e 3 chances de erro.");
+        System.out.println("*\t[2] Difícil: errou, perdeu.");
+        System.out.println("*\t[0] Finalizar jogo.");
         System.out.println();
-
         System.out.print("Escolha o nível desejado: ");
 
-        int nivelJogo = 0;
 
         do {
             nivelJogo = input.nextInt();
-            if (!(nivelJogo == 1 || nivelJogo == 2)) {
-                System.out.print("Opção Inválida, escolha entre [1] ou [2]: ");
-                nivelJogo = input.nextInt();
-            }
-        } while (!(nivelJogo == 1 || nivelJogo == 2));
+            if (!(nivelJogo == 1 || nivelJogo == 2 || nivelJogo == 0))
+                System.out.print("Opção Inválida, escolha entre [1], [2] ou [0] para finalizar: ");
+        } while (!(nivelJogo == 1 || nivelJogo == 2 || nivelJogo == 0));
+
+        if (nivelJogo == 0) {
+            System.out.println("Jogo finalizado");
+            return;
+        }
 
         FabricaMecanicaDoJogo.set(nivelJogo);
         MecanicaDoJogo mecanica = FabricaMecanicaDoJogo.getMecanicaDoJogo();
 
 
         System.out.println("A nível escolhido foi: " + mecanica.getNome());
-        System.out.println("==================================================");
+        System.out.println("*Digite [sair] a qualquer momento para finalizar a partida.");
+        System.out.println("==========================================================");
 
         while (!mecanica.terminouJogo())
 
         {
 
             while (mecanica.temTentativas()) {
-                System.out.println("sua palavra para adivinhar é: ");
-                System.out.println(mecanica.getPalavraEmbaralhada());
-                System.out.print("Digite resposta(digite [sair] para finalizar o jogo: ");
+                System.out.println("sua palavra para adivinhar é: " + mecanica.getPalavraEmbaralhada());
+                System.out.print("Digite resposta: ");
 
                 String respostaDoUsuario = resposta.nextLine();
-                if (respostaDoUsuario.equalsIgnoreCase("sair"))
+                if (respostaDoUsuario.equalsIgnoreCase("sair")) {
+                    System.out.println("Jogo finalizado");
+                    System.out.println("--------------------");
+                    System.out.println("Pontuação final: " + mecanica.getPontuacao());
+                    System.out.println("--------------------");
                     return;
+                }
 
                 boolean acertou = mecanica.acertou(respostaDoUsuario);
 
@@ -63,11 +70,19 @@ public class Principal {
                     System.out.println();
                 } else if (mecanica.temTentativas()) {
                     System.out.println("Você errou! sua pontuação atual é: " + mecanica.getPontuacao());
+                    System.out.println("Restam " + mecanica.getTentativas() + " tentativas");
+                    System.out.println();
+                }
+
+                if (!(mecanica.temTentativas())) {
+                    System.out.println("Você perdeu esta palavra. Restam " + mecanica.getErros() + " erro(s).");
+                    System.out.println("Pontuação atual é: " + mecanica.getPontuacao());
                     System.out.println();
                 }
             }
         }
-        System.out.println("Você errou! sua pontuação ficou em: " + mecanica.getPontuacao());
-        System.out.println();
+
+        System.out.println("Você usou todas as suas chances de erro e o jogo acabou!");
+        System.out.println("Pontuação final: " + mecanica.getPontuacao());
     }
 }

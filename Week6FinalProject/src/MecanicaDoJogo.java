@@ -12,5 +12,9 @@ public interface MecanicaDoJogo {
 
     public int getPontuacao();
 
+    public int getTentativas();
+
+    public int getErros();
+
 }
 

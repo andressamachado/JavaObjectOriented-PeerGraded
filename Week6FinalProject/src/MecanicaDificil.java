@@ -38,14 +38,10 @@ public class MecanicaDificil implements MecanicaDoJogo {
             return true;
         } else {
             this.tentativas--;
-            //se gastou as tentativas, adiciona erro, passa pra proxima palavra
-            if (this.tentativas == 0) {
-                this.erros++;
-                this.tentativas = 1;
+            this.erros++;
             }
             return false;
         }
-    }
 
     public boolean temTentativas() {
         if (this.tentativas > 0)
@@ -61,4 +57,11 @@ public class MecanicaDificil implements MecanicaDoJogo {
         return this.pontuacao;
     }
 
+    public int getTentativas() {
+        return this.tentativas;
+    }
+
+    public int getErros(){
+        return 0;
+    }
 }

@@ -3,6 +3,7 @@ public class MecanicaFacil implements MecanicaDoJogo {
     private int tentativas;
     private int erros;
     private String palavraDaVez;
+    private String embaralhadaDaVez;
     private int pontuacao;
     private FabricaEmbaralhadores embaralhadores;
     private BancoDePalavras banco;
@@ -23,27 +24,28 @@ public class MecanicaFacil implements MecanicaDoJogo {
 
     public String getPalavraEmbaralhada() {
 
-        this.palavraDaVez = this.banco.getPalavraGerada();
-        Embaralhador embaralhadorDaVez = embaralhadores.getEmbaralhador();
-        String palavraEmbaralhada = embaralhadorDaVez.embaralhador(palavraDaVez);
-        return palavraEmbaralhada;
+        if (tentativas == 3) {
+            this.palavraDaVez = this.banco.getPalavraGerada();
+            Embaralhador embaralhadorDaVez = embaralhadores.getEmbaralhador();
+            this.embaralhadaDaVez = embaralhadorDaVez.embaralhador(palavraDaVez);
+            return this.embaralhadaDaVez;
+        } else
+            return this.embaralhadaDaVez;
     }
 
     public boolean acertou(String respostaDoUsuario) {
 
         if (palavraDaVez.equals(respostaDoUsuario)) {
-            //se o usuario acertou, resetar as tentativas.
             this.tentativas = 3;
             this.pontuacao++;
             return true;
-        } else {
+        } else
             this.tentativas--;
-            //se gastou as tentativas, adiciona erro, passa pra proxima palavra
-            if (this.tentativas == 0) {
-                this.erros++;
-            }
-            return false;
-        }
+
+        if (this.tentativas == 0)
+            this.erros++;
+
+        return false;
     }
 
     public boolean temTentativas() {
@@ -53,7 +55,7 @@ public class MecanicaFacil implements MecanicaDoJogo {
     }
 
     public boolean terminouJogo() {
-        if( this.erros >= 3)
+        if (this.erros >= 3)
             return true;
         else {
             this.tentativas = 3;
@@ -63,6 +65,14 @@ public class MecanicaFacil implements MecanicaDoJogo {
 
     public int getPontuacao() {
         return this.pontuacao;
+    }
+
+    public int getTentativas() {
+        return this.tentativas;
+    }
+
+    public int getErros() {
+        return 3 - this.erros;
     }
 
 }
