@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04c6982-aac9-4ae9-8d5f-7d16b6fecc09" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week6FinalProject/EmbaralhadorParImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week6FinalProject/EmbaralhadorParImpar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaDificil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaDificil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaDoJogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaDoJogo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaFacil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week6FinalProject/MecanicaFacil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week6FinalProject/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week6FinalProject/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmbaralhadorParImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmbaralhadorParImpar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MecanicaDificil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MecanicaDificil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MecanicaDoJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MecanicaDoJogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MecanicaFacil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MecanicaFacil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/Week6- FinalAssignment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/Week6FinalProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/BancoDePalavras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/BancoDePalavras/palavras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/Embaralhador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/EmbaralhadorParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/EmbaralhadorRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/FabricaEmbaralhadores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/FabricaMecanicaDoJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/MecanicaDificil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/MecanicaDoJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/MecanicaFacil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/out/production/Week6FinalProject/TesteEmbaralhadorParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/BancoDePalavras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/BancoDePalavras/palavras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/Embaralhador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/EmbaralhadorParImpar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/EmbaralhadorRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/FabricaEmbaralhadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/FabricaMecanicaDoJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/MecanicaDificil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/MecanicaDoJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/MecanicaFacil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/src/TesteEmbaralhadorParImpar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6PeerGradedFinalProject/week6- FinalProjectRec.mp4" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +60,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="119">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -84,7 +105,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -95,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,9 +133,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +283,7 @@
       <workItem from="1532923095285" duration="3000" />
       <workItem from="1532958346536" duration="11026000" />
       <workItem from="1532969861570" duration="6356000" />
+      <workItem from="1533269185570" duration="241000" />
     </task>
     <servers />
   </component>
@@ -274,10 +296,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57001000" />
+    <option name="totallyTimeSpent" value="57242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,7 +315,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -681,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="119">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
         </state>
       </provider>
     </entry>
