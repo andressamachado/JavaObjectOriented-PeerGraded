@@ -75,5 +75,8 @@ public class MecanicaFacil implements MecanicaDoJogo {
         return 3 - this.erros;
     }
 
+    public String getPalavraDaVez() {
+        return palavraDaVez;
+    }
 }
 

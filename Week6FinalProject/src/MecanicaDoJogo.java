@@ -16,5 +16,7 @@ public interface MecanicaDoJogo {
 
     public int getErros();
 
+    public String getPalavraDaVez();
+
 }
 
